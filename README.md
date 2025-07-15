@@ -29,3 +29,5 @@ Latihan membuat layout sederhana menggunakan CodeIgniter 4. Semua halaman sepert
 2. Membuat file layout di Views/layout/template.php
 3. Membuat halaman home.php, about.php, dll dengan extend layout
 4. Menambahkan routing di Config/Routes.php
+
+![gambar](ScreenshotLab7Web/SSModulPraktikum1.png)
