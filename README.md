@@ -38,14 +38,16 @@ Latihan membuat layout sederhana menggunakan CodeIgniter 4. Semua halaman sepert
 
 Ringkasan Instruksi:
 Menghapus Data
-Tambahkan method delete() ke dalam Controller Artikel:
+Tambahkan method delete() ke dalam Controller Artikel: 
 
 public function delete($id)
 {
     $artikel = new ArtikelModel();
     $artikel->delete($id);
     return redirect('admin/artikel');
-} 
+}
+
+
 
 Pertanyaan dan Tugas
 Selesaikan program sesuai langkah-langkah yang diberikan.
