@@ -64,7 +64,7 @@ Diperbolehkan melakukan improvisasi.
 foreach ($artikel as $row): ?>
     <div class="artikel-item">
         <a href="<?= base_url('/artikel/' . $row['slug']) ?>">
-            <h3><?= $row['judul'] ?></h3>
+            <h3><?= $row['Ketimpangan Ekonomi Dan Paradoks Robin Hood'] ?></h3>
         </a>
         <p>Kategori: <?= $row['kategori'] ?></p>
     </div>
