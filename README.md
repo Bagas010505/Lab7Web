@@ -31,3 +31,34 @@ Latihan membuat layout sederhana menggunakan CodeIgniter 4. Semua halaman sepert
 4. Menambahkan routing di Config/Routes.php
 
 ![gambar](Screenshot/SS7.jpeg)
+
+# Modul Praktikum 2-Pemrograman Web 2
+Ringkasan Instruksi:
+Menghapus Data
+Tambahkan method delete() ke dalam Controller Artikel:
+
+public function delete($id)
+{
+    $artikel = new ArtikelModel();
+    $artikel->delete($id);
+    return redirect('admin/artikel');
+}
+Pertanyaan dan Tugas
+Selesaikan program sesuai langkah-langkah yang diberikan.
+
+Diperbolehkan melakukan improvisasi.
+
+Laporan Praktikum
+Langkah-langkah membuat laporan:
+
+Lanjutkan praktikum sebelumnya pada repository bernama Lab7Web.
+
+Kerjakan latihan sesuai urutan.
+
+Screenshot setiap perubahan.
+
+Update file README.md dengan penjelasan langkah dan screenshot.
+
+Commit hasil ke repository masing-masing.
+
+Kirim URL repository ke e-learning (ecampus).
