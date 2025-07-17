@@ -19,7 +19,7 @@ Di View (misal: about.php),bisa extend layout:
 
 
 
-# Modul Praktikum 1 - Pemrograman Web 2
+# Modul Praktikum 1
 
 ## Deskripsi
 
@@ -34,7 +34,7 @@ Latihan membuat layout sederhana menggunakan CodeIgniter 4. Semua halaman sepert
 
 ![gambar](Screenshot/SS7.jpeg)
 
-# Modul Praktikum 2-Pemrograman Web 2 
+# Modul Praktikum 2
 
 Ringkasan Instruksi:
 Menghapus Data
@@ -54,6 +54,8 @@ Selesaikan program sesuai langkah-langkah yang diberikan.
 Diperbolehkan melakukan improvisasi.
 
 ![gambar](Screenshot/SS8.jpeg) 
+
+# Modul Praktikum 3 
 
 
 
