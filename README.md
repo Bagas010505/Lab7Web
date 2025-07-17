@@ -114,3 +114,6 @@ Format output bisa disesuaikan dengan CSS (contoh: Bootstrap).
 
 Untuk gambar asli, Anda perlu menjalankan kode di lokal dan screenshot hasilnya.
 
+![gambar](Screenshot/SS9.jpeg) 
+
+
