@@ -48,27 +48,6 @@ public function delete($id)
 }
 
 
-
-Pertanyaan dan Tugas
-Selesaikan program sesuai langkah-langkah yang diberikan.
-
-Diperbolehkan melakukan improvisasi.
-
-Laporan Praktikum
-Langkah-langkah membuat laporan:
-
-Lanjutkan praktikum sebelumnya pada repository bernama Lab7Web.
-
-Kerjakan latihan sesuai urutan.
-
-Screenshot setiap perubahan.
-
-Update file README.md dengan penjelasan langkah dan screenshot.
-
-Commit hasil ke repository masing-masing.
-
-Kirim URL repository ke e-learning (ecampus).
-
 ![gambar](Screenshot/SS8.jpeg) 
 
 
