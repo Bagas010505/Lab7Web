@@ -57,26 +57,60 @@ Diperbolehkan melakukan improvisasi.
 
 # Modul Praktikum 3 
 
-Contoh kode View Cell:
+# 1.File View Cell (app/View/components/artikel_terkini.php)
 
-<h3>Artikel Terkini</h3>
-<ul>
-  <?php foreach ($artikel as $row): ?>
-    <li>
-      <div><a href="<?= base_url('/artikel/' . $row['slug']) ?>">
-        <?= $row['judul'] ?>
-      </a></div>
-    </li>
-  <?php endforeach; ?>
-</ul>
+<?php
+// Menampilkan artikel terkini dengan kategori tertentu
+foreach ($artikel as $row): ?>
+    <div class="artikel-item">
+        <a href="<?= base_url('/artikel/' . $row['slug']) ?>">
+            <h3><?= $row['judul'] ?></h3>
+        </a>
+        <p>Kategori: <?= $row['kategori'] ?></p>
+    </div>
+<?php endforeach ?>
 
-+-------------------------+
-|     Artikel Terkini     |
-+-------------------------+
-| • Judul Artikel 1       |
-| • Judul Artikel 2       |
-| • Judul Artikel 3       |
-+-------------------------+
+# 3.Output yang Diharapkan (Contoh Visual)
+Keterangan Output:
 
+Setiap artikel ditampilkan dalam bentuk card dengan:
 
+Judul artikel (link ke detail)
+
+Nama kategori
+
+Hanya menampilkan artikel dengan kategori "terkini".
+
+3. Contoh Data dari Controller/Model (PHP)
+
+// Contoh data yang dikirim ke View Cell
+$data = [
+    'artikel' => [
+        [
+            'judul' => 'Belajar CodeIgniter 4',
+            'slug' => 'belajar-ci4',
+            'kategori' => 'terkini'
+        ],
+        [
+            'judul' => 'View Cell dalam CI4',
+            'slug' => 'view-cell-ci4',
+            'kategori' => 'tutorial'
+        ]
+    ]
+];
+
+# 4.Perbedaan View Cell vs View Biasa
+
+Fitur	View Cell	View Biasa
+Scope	Komponen kecil (sidebar, widget)	Halaman penuh (index, detail)
+Reusability	✅ Bisa dipakai di banyak halaman	❌ Spesifik per-halaman
+Logika	Minimal (fokus tampilan)	Bisa kompleks
+
+# 5.Catatan penting
+
+Pastikan menggunakan CodeIgniter 4 (terlihat dari struktur folder app/View/components).
+
+Format output bisa disesuaikan dengan CSS (contoh: Bootstrap).
+
+Untuk gambar asli, Anda perlu menjalankan kode di lokal dan screenshot hasilnya.
 
