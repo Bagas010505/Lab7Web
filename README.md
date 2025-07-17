@@ -57,5 +57,26 @@ Diperbolehkan melakukan improvisasi.
 
 # Modul Praktikum 3 
 
+Contoh kode View Cell:
+
+<h3>Artikel Terkini</h3>
+<ul>
+  <?php foreach ($artikel as $row): ?>
+    <li>
+      <div><a href="<?= base_url('/artikel/' . $row['slug']) ?>">
+        <?= $row['judul'] ?>
+      </a></div>
+    </li>
+  <?php endforeach; ?>
+</ul>
+
++-------------------------+
+|     Artikel Terkini     |
++-------------------------+
+| • Judul Artikel 1       |
+| • Judul Artikel 2       |
+| • Judul Artikel 3       |
++-------------------------+
+
 
 
