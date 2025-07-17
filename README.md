@@ -70,7 +70,7 @@ foreach ($artikel as $row): ?>
     </div>
 <?php endforeach ?>
 
-# 3.Output yang Diharapkan (Contoh Visual)
+# 2.Output yang Diharapkan (Contoh Visual)
 Keterangan Output:
 
 Setiap artikel ditampilkan dalam bentuk card dengan:
@@ -99,14 +99,14 @@ $data = [
     ]
 ];
 
-# 4.Perbedaan View Cell vs View Biasa
+# 3.Perbedaan View Cell vs View Biasa
 
 Fitur	View Cell	View Biasa
 Scope	Komponen kecil (sidebar, widget)	Halaman penuh (index, detail)
 Reusability	✅ Bisa dipakai di banyak halaman	❌ Spesifik per-halaman
 Logika	Minimal (fokus tampilan)	Bisa kompleks
 
-# 5.Catatan penting
+# 4.Catatan penting
 
 Pastikan menggunakan CodeIgniter 4 (terlihat dari struktur folder app/View/components).
 
