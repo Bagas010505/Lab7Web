@@ -198,3 +198,40 @@ Tombol Aksi (Ubah, Hapus)
 3.Navigasi halaman (pagination) tetap mempertahankan kata kunci pencarian.
 
 Contoh output tampak pada gambar sebagai tabel data hasil pencarian di halaman /admin/artikel.
+
+
+
+# Modul Praktikum 6
+
+
+Pada gambar dari Modul Praktikum 6 tersebut, bahasa pemrograman yang digunakan adalah:
+
+Bahasa Pemrograman:
+
+PHP (menggunakan framework CodeIgniter 4)
+
+HTML (untuk pembuatan form upload)
+
+Kode form HTML yang terlihat:
+
+<form action="" method="post" enctype="multipart/form-data">
+
+Penjelasan Kode:
+
+method="post" → Mengirim data ke server menggunakan metode POST.
+
+enctype="multipart/form-data" → Wajib digunakan untuk upload file.
+
+Terdapat input file di dalam form, digunakan untuk mengunggah gambar.
+
+Output Program:
+
+Output dari kode dan pengaturan ini adalah halaman Tambah Artikel di aplikasi Admin Portal Berita yang berfungsi untuk meng-upload file gambar. Berikut hasil akhirnya:
+
+1.Formulir untuk mengisi artikel baru.
+
+2.Terdapat input file untuk mengunggah gambar.
+
+3.Setelah file dipilih dan tombol “Kirim” ditekan, gambar akan dikirim ke server dan disimpan, misalnya ke folder uploads/ di server.
+
+Tampilan output terlihat pada gambar di bawah form, yaitu halaman localhost:8080/admin/artikel/add.
