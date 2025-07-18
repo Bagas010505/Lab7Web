@@ -151,3 +151,50 @@ Outputnya biasanya berupa halaman form login seperti gambar "Sign In" yang ditam
 • Password
 
 • Tombol Login
+
+
+
+# Modul Praktikum 5
+
+Bahasa pemrograman yang digunakan pada modul di gambar tersebut adalah PHP dengan framework CodeIgniter 4, dikombinasikan dengan HTML untuk bagian form pencarian.
+
+Penjelasan Kode:
+Form Pencarian (HTML + PHP):
+
+<form method="get" class="form-search">
+    <input type="text" name="q" value="<?= $q; ?>" placeholder="Cari data">
+    <input type="submit" value="Cari" class="btn btn-primary">
+</form>
+
+method="get" → Data dikirim lewat URL.
+
+name="q" → Input pencarian dengan nama q.
+
+value="<?= $q; ?>" → Menampilkan nilai input terakhir.
+
+placeholder="Cari data" → Teks bantu dalam kotak input.
+
+Paging dengan Query:
+
+<?= $pager->only(['q'])->links(); ?>
+
+Digunakan untuk menampilkan navigasi halaman (pagination), sambil tetap membawa parameter pencarian (q).
+
+Output Program:
+Outputnya adalah halaman Admin Portal Berita dengan fitur pencarian artikel. Ketika pengguna mengetik kata kunci di form lalu klik tombol "Cari", maka:
+
+1.Daftar artikel akan difilter sesuai kata kunci yang dimasukkan.
+
+2.Tabel menampilkan hasil pencarian dengan kolom:
+
+ID
+
+Judul artikel
+
+Status
+
+Tombol Aksi (Ubah, Hapus)
+
+3.Navigasi halaman (pagination) tetap mempertahankan kata kunci pencarian.
+
+Contoh output tampak pada gambar sebagai tabel data hasil pencarian di halaman /admin/artikel.
