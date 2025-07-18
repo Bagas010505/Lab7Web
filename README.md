@@ -216,6 +216,7 @@ Kode form HTML yang terlihat:
 
 <form action="" method="post" enctype="multipart/form-data">
 
+
 Penjelasan Kode:
 
 method="post" → Mengirim data ke server menggunakan metode POST.
