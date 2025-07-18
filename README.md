@@ -213,7 +213,6 @@ PHP (menggunakan framework CodeIgniter 4)
 HTML (untuk pembuatan form upload)
 
 Kode form HTML yang terlihat:
-
 <form action="" method="post" enctype="multipart/form-data">
 
 Penjelasan Kode:
