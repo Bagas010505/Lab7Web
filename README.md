@@ -152,7 +152,7 @@ Outputnya biasanya berupa halaman form login seperti gambar "Sign In" yang ditam
 
 • Tombol Login
 
-
+![gambar](Screenshot/SS10.jpeg)
 
 # Modul Praktikum 5
 
@@ -199,7 +199,7 @@ Tombol Aksi (Ubah, Hapus)
 
 Contoh output tampak pada gambar sebagai tabel data hasil pencarian di halaman /admin/artikel.
 
-
+![gambar](Screenshot/SS11.jpeg)
 
 # Modul Praktikum 6
 
@@ -234,3 +234,5 @@ Output dari kode dan pengaturan ini adalah halaman Tambah Artikel di aplikasi Ad
 3.Setelah file dipilih dan tombol “Kirim” ditekan, gambar akan dikirim ke server dan disimpan, misalnya ke folder uploads/ di server.
 
 Tampilan output terlihat pada gambar di bawah form, yaitu halaman localhost:8080/admin/artikel/add.
+
+![gambar](Screenshot/SS12.jpeg)
