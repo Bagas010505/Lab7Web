@@ -203,7 +203,6 @@ Contoh output tampak pada gambar sebagai tabel data hasil pencarian di halaman /
 
 # Modul Praktikum 6
 
-
 Pada gambar dari Modul Praktikum 6 tersebut, bahasa pemrograman yang digunakan adalah:
 
 Bahasa Pemrograman:
@@ -213,6 +212,7 @@ PHP (menggunakan framework CodeIgniter 4)
 HTML (untuk pembuatan form upload)
 
 Kode form HTML yang terlihat:
+
 <form action="" method="post" enctype="multipart/form-data">
 
 Penjelasan Kode:
