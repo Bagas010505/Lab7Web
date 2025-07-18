@@ -116,4 +116,38 @@ Untuk gambar asli, Anda perlu menjalankan kode di lokal dan screenshot hasilnya.
 
 ![gambar](Screenshot/SS9.jpeg) 
 
+# Modul Praktikum 4
 
+Bahasa pemrograman yang digunakan pada cuplikan modul tersebut adalah PHP, lebih tepatnya menggunakan framework CodeIgniter, yang terlihat dari gaya penulisan fungsi dan session handling-nya seperti ini:
+
+public function logout()
+{
+    session()->destroy();
+    return redirect()->to('/user/login');
+}
+
+Penjelasan Kode:
+
+
+public function logout() → Mendefinisikan method logout dalam sebuah controller di PHP (biasanya pada controller User).
+
+session()->destroy(); → Menghapus semua data sesi (session), artinya pengguna akan "logout".
+
+return redirect()->to('/user/login'); → Mengarahkan (redirect) pengguna ke halaman login setelah logout.
+
+Output Program:
+
+
+Jika kode ini dijalankan dan pengguna mengakses fungsi logout, maka hasil/output-nya adalah:
+
+Session pengguna akan dihapus (logout).
+
+Pengguna langsung dialihkan ke halaman login, yaitu URL: /user/login.
+
+Outputnya biasanya berupa halaman form login seperti gambar "Sign In" yang ditampilkan di modul (Gambar 13.4), dengan kolom:
+
+• Email address
+
+• Password
+
+• Tombol Login
